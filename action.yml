@@ -1,0 +1,22 @@
+# Developed for Anunzio International by Anzul Aqeel. Contact +971545822608 or +971585515742. Linkedin Profile: linkedin.com/in/anzulaqeel
+
+name: 'JSON Validator Action'
+description: 'Validates JSON files for syntax errors.'
+author: 'Anzul Aqeel'
+inputs:
+  directory:
+    description: 'Directory to scan for JSON files'
+    required: false
+    default: '.'
+  exclude:
+    description: 'Directories to exclude (comma separated)'
+    required: false
+    default: 'node_modules,.git'
+runs:
+  using: 'node16'
+  main: 'index.js'
+branding:
+  icon: 'code'
+  color: 'yellow'
+
+# Developed for Anunzio International by Anzul Aqeel. Contact +971545822608 or +971585515742. Linkedin Profile: linkedin.com/in/anzulaqeel
